@@ -16,8 +16,8 @@ namespace DelegateDemo
             DelOp obj = Operation.Add;
             obj += Operation.Square;
 
-            obj(1, 2);
-            obj(8, 3);
+            obj(8, 4);
+            obj(8, 8);
 
             Console.ReadLine();
         }
